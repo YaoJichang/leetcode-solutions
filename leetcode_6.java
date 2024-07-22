@@ -2,6 +2,7 @@
 //这个题包装的很唬人，但是实际就是给s的每一位标记就好了：假设numRows为4，那就是那s每一位的行数就是：1234321234321
 //题解里面还有一个找规律的，感觉也是可行的，一次循环长度是2n-2
 //ps 我感觉你这种图形化的找规律题目不太擅长 还是要多做一做
+//题解的解法三给出了最优解 解法二给出了不用 ArrayList 而用StringBuffer来实现类似的变长二维数组 然后解法一是你卡壳的普通二维数组方法 都值得你好好看看
 class Solution {
     public String convert(String s, int numRows) {
          int n = s.length();
